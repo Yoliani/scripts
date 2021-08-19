@@ -17,11 +17,10 @@
 #(_______/(_______)|/     \||/       \_______/(_______/(_______/
 
 
-echo "Entrando modo superusuario"
-su
+
 
 echo "Dependencias"
-apt-get install sudo build-essential libncurses-dev bison flex libssl-dev libelf-dev bc neofetch
+sudoapt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev bc neofetch
 sudo apt-get update
 sudo apt-get install initramfs-tools
 sudo apt-get update
