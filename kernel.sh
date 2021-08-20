@@ -31,6 +31,8 @@ echo "Descargando version estable del kernel"
 wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.13.12.tar.xz
 unxz -v linux-5.13.12.tar.xz
 
+wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.13.12.tar.sign
+
 echo "Revisando las llaves"
 
 gpg --verify linux-5.13.12.tar.sign
