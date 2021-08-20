@@ -20,7 +20,7 @@
 
 
 echo "Dependencias"
-sudoapt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev bc neofetch
+sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev bc neofetch
 sudo apt-get update
 sudo apt-get install initramfs-tools
 sudo apt-get update
